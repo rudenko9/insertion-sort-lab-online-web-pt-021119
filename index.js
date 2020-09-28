@@ -1,7 +1,7 @@
 function findMinAndRemove(array){
 let newArr = []
 let sorted = array.sort()
-let firstElement = sorted[0].shift()
+let firstElement = sorted.shift()
 return newArr.push(firstElement)
 }
 
