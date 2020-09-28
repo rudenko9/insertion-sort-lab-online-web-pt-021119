@@ -7,4 +7,5 @@ return newArr.push(firstElement)
 
 function selectionSort(array){
 let sorted = array.sort()
+return sorted
 }
